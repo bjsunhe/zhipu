@@ -18,13 +18,13 @@ connection.connect(err => {
 
   const createTableQuery = `
     CREATE TABLE IF NOT EXISTS table_bosch (
-      process VARCHAR,
-      projectId VARCHAR,
-      sap VARCHAR,
+      process VARCHAR(255),
+      projectId VARCHAR(255),
+      sap VARCHAR(255),
       productSizeLength INT,
       productSizeWidth INT,
       productSizeHeight INT,
-      description VARCHAR
+      description VARCHAR(255)
     )
   `;
 
@@ -36,15 +36,14 @@ connection.connect(err => {
       console.log('Table created successfully');
     }
 
-    // Close the MySQL connection
+    // Close the MySQL connection when done with table creation
     connection.end();
   });
-  
 });
 
-// Perform database operations here
+// Perform other database operations here
 
-// Close the MySQL connection when done
+// Close the MySQL connection when done with all operations
 // connection.end(err => {
 //   if (err) {
 //     console.error('Error closing MySQL connection:', err);
