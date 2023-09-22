@@ -23,7 +23,7 @@ const axiosConfig = {
   axios(axiosConfig)
   .then(response => {
     // Handle the data from the successful response
-    console.log(response.data);
+    console.log(JSON.stringify(response.data.data.choices));
   })
   .catch(error => {
     // Handle any errors that occurred during the request
