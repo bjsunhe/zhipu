@@ -25,7 +25,6 @@ connection.connect(err => {
       productSizeWidth INT,
       productSizeHeight INT,
       description VARCHAR
-      
     )
   `;
 
