@@ -253,7 +253,7 @@ connection.connect(err => {
     }
 
     // Close the MySQL connection
-    connection.end();
+    //connection.end();
   });
   
   })
