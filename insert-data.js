@@ -261,7 +261,37 @@ connection.connect(err => {
     force:88,
     stroke:650,
     speed:100
+  },
+
+     {
+    process: 'press',
+    projectId: 'M.6000922.10',
+    sap: '0804EF9387',
+    productSizeLength: 13,
+    productSizeWidth: 8,
+    productSizeHeight: 27,
+    description: 'Trapez (Hmjp)',
+    supplier:'Teee',
+    force:200,
+    stroke:60,
+    speed:250
+  },
+
+         {
+    process: 'press',
+    projectId: 'M.6000922.10',
+    sap: '0804EF9387',
+    productSizeLength: 13,
+    productSizeWidth: 8,
+    productSizeHeight: 27,
+    description: 'AB10',
+    supplier:'KKK',
+    force:20,
+    stroke:100,
+    speed:0
   }
+
+    
     
     
     
