@@ -235,7 +235,34 @@ connection.connect(err => {
     productSizeWidth: 20,
     productSizeHeight: 30,
     description: 'Description of the data'
+  },
+    {
+    process: 'press',
+    projectId: 'M.6000822.220',
+    sap: '0804EF9387',
+    productSizeLength: 0,
+    productSizeWidth: 0,
+    productSizeHeight: 0,
+    description: '48V Battery',
+    supplier:'Teee',
+    force:88,
+    stroke:650,
+    speed:100
+  },
+    {
+    process: 'press',
+    projectId: 'M.6000822.220',
+    sap: '0804EF9387',
+    productSizeLength: 0,
+    productSizeWidth: 0,
+    productSizeHeight: 0,
+    description: '48V Battery',
+    supplier:'Teee',
+    force:88,
+    stroke:650,
+    speed:100
   }
+    
     
     
   ]
